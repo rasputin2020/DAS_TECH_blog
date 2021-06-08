@@ -27,3 +27,6 @@ Markdown语法整理 https://guo365.github.io/study/Markdown.html
 
 <font color=Blue>我是蓝色</font>
 <font size=5>我是尺寸</font>
+
+
+$\color{blue}{MathJax}$
