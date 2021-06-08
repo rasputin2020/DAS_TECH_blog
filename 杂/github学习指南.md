@@ -23,3 +23,7 @@ README  https://github.com/guodongxiaren/README#diff%E8%AF%AD%E6%B3%95
 Markdown语法整理 https://guo365.github.io/study/Markdown.html 
 
 我是==引用内容 #800028==
+
+
+<font color=Blue>我是蓝色</font>
+<font size=5>我是尺寸</font>
