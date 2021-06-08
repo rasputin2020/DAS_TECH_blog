@@ -32,3 +32,10 @@ Markdown语法整理 https://guo365.github.io/study/Markdown.html
 $\color{blue}{MathJax}$
 
 ## [Git 分支 - 分支简介](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B#divergent_history)
+
+Git 标签 https://www.runoob.com/git/git-tag.html 
+
+master分支
+在数据库进行最初的提交后, Git会创建一个名为master的分支。因此之后的提交，在切换分支之前都会添加到master分支里。
+
+
