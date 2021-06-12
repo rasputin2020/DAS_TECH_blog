@@ -151,7 +151,7 @@ GitHub网页的顶部有：
 这就是你可以编辑的私有文件，它不仅支持Text文本，还支持各种编程语言呢！当然也包括markdown。输入文件名：
 
 最后保存，选中 Create Secret Gist 就是私有的喽。
-
+https://blog.csdn.net/u_7890/article/details/81565679 
     
     
 
