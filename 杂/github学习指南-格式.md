@@ -50,8 +50,9 @@ master分支
 `Gist介绍与用法`  https://gohom.win/2015/11/26/gist/
 
 
-    OLED Demura总结
-    
+    ## OLED Demura总结 ##
+
+这是一个 ~~删除线~~   
     
 ![图片](https://user-images.githubusercontent.com/84896436/121761165-d2457b80-cb60-11eb-9c24-4560f70bc70f.png)
 
