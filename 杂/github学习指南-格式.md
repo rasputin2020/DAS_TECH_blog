@@ -137,18 +137,21 @@ _ _ _
     
     
     
+
+        [题外话]在GitHub上用Gist写日记吧
+
+看了这么多markdown的语法，你一定不满足于仅仅写一个README文件了，开始跃跃欲试想实际用markdown语法来编写博客或文章了吧。的确，网上也有依托或者支持markdown语法的博客。但是呢，更方便的是，你可以借助GitHub本身就有的一个功能——Gist。
+
+Gist是以文件为单位的，不是以项目为单位的。而且与普通的GitHub上建的仓库不同，Gist是private的哦。普通的项目默认都是public的，要想弄成private貌似还要交钱的样子。既然是private那么用来写写日记，是极好的。
+
+GitHub网页的顶部有：
+
+点进去:
+
+这就是你可以编辑的私有文件，它不仅支持Text文本，还支持各种编程语言呢！当然也包括markdown。输入文件名：
+
+最后保存，选中 Create Secret Gist 就是私有的喽。
+
     
     
-    
-    
-    
-    
-    
-    
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
-      <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
-      <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
-      <p>Your user agent does not support the HTML5 Video element.</p>
-    </video>
 
