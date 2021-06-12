@@ -1,12 +1,16 @@
- OLED中的Demura
+ # OLED中的Demura
 
 OLED作为一种电流型发光器件已越来越多地被应用于高性能显示中。由于它自发光的特性，与LCD相比，AMOLED具有高对比度、超轻薄、可弯曲等诸多优点。但是，亮度均匀性和残像仍然是它目前面临的两个主要难题，要解决这两个问题，除了工艺的改善，就不得不提到补偿技术。
 
 补偿方法可以分为内部补偿和外部补偿两大类。内部补偿是指在像素内部利用TFT构建的子电路进行补偿的方法。外部补偿是指通过外部的驱动电路或设备感知像素的电学或光学特性然后进行补偿的方法。
 
-1. 为何要对OLED进行补偿？
+![图片](https://user-images.githubusercontent.com/84896436/121760521-dcb24600-cb5d-11eb-8637-b13ee399377e.png)
+
+## 1. 为何要对OLED进行补偿？
 
 介绍补偿技术之前，首先我们来看看AMOLED为什么需要补偿。下图所示为一个最简单的AMOLED像素电路，它由两个薄膜晶体管（TFT）构建像素电路为OLED器件提供相应的电流。
+
+![图片](https://user-images.githubusercontent.com/84896436/121760536-e50a8100-cb5d-11eb-916c-a5af7cd8b1eb.png)
 
 与一般的非晶硅薄膜晶体管（amorphous-Si TFT）相比，LTPS TFT和Oxide TFT具有更高的迁移率和更稳定的特性，更适合应用于AMOLED显示中。在中小尺寸应用中多采用低温多晶硅薄膜晶体管(LTPS TFT)，而在大尺寸应用中多采用氧化物薄膜晶体管（Oxide TFT）。这是因为LTPS TFT迁移率更大，器件所占面积更小，更适合于高PPI的应用。而Oxide TFT均匀性更好，工艺与a-Si兼容，更适合在高世代线上生产大尺寸AMOLED面板。
 
@@ -16,7 +20,9 @@ OLED作为一种电流型发光器件已越来越多地被应用于高性能显�
 
 Oxide TFT 虽然工艺的均匀性较好，但是与a-Si TFT类似，在长时间加压和高温下，其阈值电压会出现漂移，由于显示画面不同，面板各部分TFT的阈值漂移量不同，会造成显示亮度差异，由于这种差异与之前显示的图像有关，因此常呈现为残影现象，也就是通常所说的残像。
 
-2. OLED补偿分类
+![图片](https://user-images.githubusercontent.com/84896436/121760560-ff445f00-cb5d-11eb-9f15-19a03eb8104c.png)
+
+## 2. OLED补偿分类
 
 因此，在当前的工艺制作中，不管是LTPS还是Oxide都存在均匀性或稳定性的问题，而且OLED本身也会随着点亮时间的增加亮度逐渐衰减。既然这些问题难以在工艺上完全克服，就必须要在设计上通过各种补偿技术来解决。通常OLED的发光亮度和电流成正比，而电流是由TFT提供的，与TFT的特性参数相关。电流通常表示为：
 
@@ -26,9 +32,13 @@ k是和TFT迁移率有关的参数，Vgs和Vds又和电源电压与OLED驱动电
 
 补偿技术的主要目的就是要消除这些因素的影响，最终让所有像素的亮度达到理想值。
 
+![图片](https://user-images.githubusercontent.com/84896436/121760590-1f741e00-cb5e-11eb-8343-179226c87770.png)
+
     内部补偿
 
 下图是一个典型的内部补偿型电路，它由7个TFT和1个存储电容组成，因此被简称为7T1C结构。
+
+![图片](https://user-images.githubusercontent.com/84896436/121760609-387ccf00-cb5e-11eb-9947-a6a9e47a9c24.png)
 
 类似还有6T1C，5T2C等很多类似电路结构，经过近几年的不断研究和发展，内部补偿电路的拓扑结构几乎已被穷尽，很难再有实用性的结构创新。
 
@@ -40,7 +50,7 @@ k是和TFT迁移率有关的参数，Vgs和Vds又和电源电压与OLED驱动电
 
     外部补偿之Demura
 
-外部补偿根据数据抽取方法的不同又可以分为光学抽取式和电学抽取式。光学抽取式是指将背板点亮后通过光学CCD照相的方法将亮度信号抽取出来，电学抽取式是指通过驱动芯片的感应电路将TFT和OLED的电学信号抽取出来。
+外部补偿根据数据抽取方法的不同又可以分为**光学抽取式**和**电学抽取式**。光学抽取式是指将背板点亮后通过光学CCD照相的方法将亮度信号抽取出来，电学抽取式是指通过驱动芯片的感应电路将TFT和OLED的电学信号抽取出来。
 
 两种方法抽取的信号种类不同，因此数据处理的方式也不同。光学抽取的方式具有结构简单，方法灵活的优点，因此在现阶段被广泛采用，即为我们平时所说的Demura。
 
@@ -49,7 +59,8 @@ Mura一词源于日本，原意指亮暗不均，后扩展至面板上任何人�
 对于面板厂而言，需要进行质量监控，因此在产线上均有技术员去检测判定mura，但是这种方法很主观，不同人的判定有差异，给品质管控带来很大的困扰。
 
 因此技术人员开发出AOI(automatic optical inspection)设备进行mura的检测，以及检测到Mura后进行补偿消除Mura，即Demura，本文讲重点介绍Demura。
-3. Demura一般步骤
+## 3. Demura一般步骤
+![图片](https://user-images.githubusercontent.com/84896436/121760649-724dd580-cb5e-11eb-9c5b-bb4e98e9c956.png)
 
 a. Drive IC点亮面板（TV/mobile/Tablet）,并显示数个画面（一般是灰阶或者RGB）。
 
@@ -88,22 +99,27 @@ e. 将Demura数据烧录到Flash ROM中，重新拍摄补偿后画面，确认Mu
 2.IDMS(former VESA)
 
 当然Mura检测异常复杂，各个厂家都有开发自己的Mura检测算法，也算是自己的核心技术。Mura识别的内容太多，本文举几个简单的例子作为说明。
+![图片](https://user-images.githubusercontent.com/84896436/121760658-84c80f00-cb5e-11eb-858b-25c6d1b09c1a.png)
 
 上图是科学家做实验得出的人眼对比敏感性函数，黄色曲线以上部分，人眼基本无法识别出Mura,可以看出两个因素可以明显影响对Mura严重程度的判定:
 1、亮暗对比程度的差异
 2、亮暗差异的周期分布
 
     Mura检测之傅里叶变换
+    
+ ![图片](https://user-images.githubusercontent.com/84896436/121760663-8e517700-cb5e-11eb-996b-c663730e10bc.png)
 
 任意一个图像均可以分解为不同频率，强度，相位，方位的sin函数。
 
     Mura检测之边缘识别
 
 经过傅里叶变换后，高频部分可以用来识别图像边缘。
+![图片](https://user-images.githubusercontent.com/84896436/121760678-9f01ed00-cb5e-11eb-83d2-0c254b543515.png)
 
     Mura检测之边缘识别
 
 经过对比增强后，原本很微弱不易识别的Mura可以明显被识别，当然还有很多其它的方法，例如比较Pixel与周围pixel的亮度差异，计算亮度梯度，计算色差等方法。
+![图片](https://user-images.githubusercontent.com/84896436/121760686-a5906480-cb5e-11eb-867c-03236361bd75.png)
 
     Demura算法
 
@@ -116,8 +132,10 @@ e. 将Demura数据烧录到Flash ROM中，重新拍摄补偿后画面，确认Mu
 OLED Demura数据确定后，就需要将其烧录到EEPROM中以实现补偿效果，最后再拍照确认Mura已消除，Demura数据占用ROM空间的大小取决于屏幕分辨率以及补偿精度（pixel级，3*3，5*5…..）。
 
 Demura 前：
+![图片](https://user-images.githubusercontent.com/84896436/121760702-b17c2680-cb5e-11eb-99f8-e54cef73d15f.png)
 
 Demura 后：
+![图片](https://user-images.githubusercontent.com/84896436/121760704-b5a84400-cb5e-11eb-900f-10c6f344e1cc.png)
 
     OLED Demura总结
 
@@ -129,3 +147,6 @@ Demura 难点总结如下：
 3、如何进行快速高效的补偿，以免速度太慢对产能造成损失？
 
 以上问题，期待大家的共同努力，早日突破解决。
+
+
+source:https://www.cnblogs.com/hwBeta/p/7653020.html 
