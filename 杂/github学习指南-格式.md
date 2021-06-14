@@ -5,7 +5,7 @@ Thank `You` . Please `Call` Me `Coder`
 
 ## 2 [github中README.md中代码高亮、加入表格等解决方法](https://blog.csdn.net/u_7890/article/details/81565679)
 
-
+==被预定颜色记号的文字 #f44336== 
 
 <font color=red size=6 face="黑体">红色6号黑体</font>
 
