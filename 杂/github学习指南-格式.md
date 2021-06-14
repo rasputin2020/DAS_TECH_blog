@@ -109,6 +109,8 @@ master分支
 ___
 _ _ _   
     
+
+    
 这是h1标题显示效果
 ======
 
@@ -117,12 +119,22 @@ _ _ _
 任何数量的=和-都可以有效果。而这种类型的表现形式，也只有这两级标题显示
     
     
+<font face="黑體">我是黑體字</font>
+======
+ <font face="微軟雅黑">我是微軟雅黑</font>
+======
+<font face="STCAIYUN">我是華文彩雲</font>  
+======   
     
-    
-    
-    
-    
-  
+<font face="黑體" size=2>我是黑體2號字</font>
+------ 
+<font face="黑體" size=3>我是黑體3號字</font>
+------ 
+<font face="黑體" size=7>我是黑體7號字</font>
+------    
+<font color="red">变红了吧</font>
+------     
+
 `Gist介绍与用法`  https://gohom.win/2015/11/26/gist/
 
 
@@ -137,7 +149,10 @@ _ _ _
 在线 Markdown 编译器 https://tool.oschina.net/markdown/ 
     
     
-    
+==highlight 1==
+<mark>highlight 2</mark>
+```code 1```
+`code 2`    
     
 
         [题外话]在GitHub上用Gist写日记吧
