@@ -9,6 +9,18 @@ Thank `You` . Please `Call` Me `Coder`
 
 <font color=red size=6 face="黑体">红色6号黑体</font>
 
+<table><tr><td bgcolor=#003454>Hello World!</td></tr></table>
+
+<font size=6 color= blue face="宋体">Hello World!</font>
+
+Na<sub>2CO<sub>3
+
+深圳腾讯<sup>TM</sup>
+    
+$ X\stackrel{F}{\longrightarrow}Y$
+    
+<table><tr><td bgcolor=yellow>背景色yellow</td></tr></table>   
+    
 
 diff + 人闲桂花落，
 
