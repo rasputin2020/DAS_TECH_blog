@@ -182,5 +182,5 @@ GitHub网页的顶部有：
 最后保存，选中 Create Secret Gist 就是私有的喽。
 https://blog.csdn.net/u_7890/article/details/81565679 
     
-    
+士大夫阿迪斯     
 
