@@ -46,6 +46,5 @@ Waveforms
 
 ***From <https://www.atecorp.com/compliance-standards/iec/iec-61000-4-4>*** 
 
-IEC/EN 61000-4-5 Surge 雷擊突波耐受
 
 
