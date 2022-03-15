@@ -35,9 +35,9 @@ EN 55104	Immunity for Household Appliances, Tools and Similar Apparatus	1kV
 Test Set-Up    
 ![image](https://user-images.githubusercontent.com/84896436/158328688-6d5e2c4e-a08f-4b0e-ac20-042453452548.png)
 
-![image](https://user-images.githubusercontent.com/84896436/158328713-54cae222-8ae6-4c64-93cb-95b88b551d55.png)
+![image](https://user-images.githubusercontent.com/84896436/158328713-54cae222-8ae6-4c64-93cb-95b88b551d55.png)  
  
-Coupling Methods  
+Coupling Methods    
 Capacitive coupling via 33nF capacitors is the required coupling method for AC or DC power mains. These coupling capacitors are included as part of a Coupler/ Decoupler (C/D) in commercially available EFT simulators. The design of the decoupling portion of the C/D, which prevents the EFT burst from traveling back onto the power mains, is also specified in IEC 61000-4-4.
 
 A capacitive coupling clamp is used to couple EFT bursts onto data, I/O, and telecommunications lines. Construction of the clamp is shown in Figure 5 of IEC 61000-4-4; however, considerable differences exist in commercially available clamps. Some clamps use higher quality materials and some designs allow for the use of an optional safety interlocked cover.
