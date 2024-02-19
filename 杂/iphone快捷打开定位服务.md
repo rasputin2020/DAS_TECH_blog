@@ -1,5 +1,6 @@
 # iphone快捷打开定位服务   
 
+## note1 
 https://www.businessinsider.com/guides/tech/how-to-turn-off-location-on-iphone  
 How to turn off location services on an iPhone
 To completely disable location services on your iPhone: 
@@ -24,3 +25,5 @@ Click "Turn Off." Jamie Friedlander/Business Insider
 
 If you need to turn location services back on again, follow these same instructions to toggle the green slider to "On."
 
+## note2  
+Privacy → Location Services → (root): prefs:root=Privacy&path=LOCATION  (https://github.com/FifiTheBulldog/ios-settings-urls/blob/master/settings-urls.md)  
