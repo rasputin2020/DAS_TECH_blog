@@ -29,6 +29,31 @@ TSS为一种具有负阻特性的浪涌保护器件，由于其特殊的PNPN结�
 除了上述三大类器件，FAE工程师在系统电路设计中，应组合使用多个电路保护器件及方案。  
 ![image](https://github.com/rasputin2020/DAS_TECH_blog/assets/84896436/01ded8e3-f9a4-4cfb-86aa-4ceb8414830e)  
 
+————————————————————————————————————————————————————————————————————————  
+![image](https://github.com/rasputin2020/DAS_TECH_blog/assets/84896436/5e4eeefc-26ff-4de4-9116-bd5615f75d3c)  
+TSS由于寄生电容稍低，多用于信号接口应用保护，如音视频接口和串口防雷保护，而TVS寄生电容高，有箝位，多用于电源口的过压保护   
+
+——————————————————————————————————————————————————————————————————————————————————  
+from：3  
+TVS器件具有很高的对地阻抗。当在系统输入端存在一个大于TVS击穿电压的瞬变电压时，TVS被击穿并提供低阻抗接地路径，将瞬变电流从开关输入端转移到地，从而输入端电压被箝位。TVS器件的重要参数包括：工作峰值反向电压，低于此电压便不会发生明显的导通；
+击穿电压，在该电压时发生一定程度的导通；以及最大箝位电压，这是传导额定最大电流时器件上的最大电压。    
+
+选择TVS器件时，另一个要考虑的参数是其最大箝位电压。在浪涌事件期间，当越来越大的电流流过TVS器件时，TVS的箝位电压可以升高到最大箝位电压。对于TVS，此最大箝位电压高于击穿电压。高击穿电压（如54 V）TVS的最大箝位电压
+大于ADG5412F数据手册中针对源极引脚规定的±55 V直流绝对最大额定值。但是，“浪涌测试，IEC61000-4-5”部分证明，在浪涌瞬变持续时间内，ADG5412F可以承受大于直流最大额定值的电压。这是因为浪涌瞬变的上升时间比ESD脉冲慢得多，故在浪涌瞬变持续时间内，ADG5412F内部ESD保护不会触发。   
+
+————————————————————————————————————————————————————————  
+![image](https://github.com/rasputin2020/DAS_TECH_blog/assets/84896436/c05d56ab-abe9-4684-bd11-9b002bce0e27)
+
+
 
 ## 参考   
-1.https://bbs.eeworld.com.cn/thread-1170094-1-1.html 
+1.https://bbs.eeworld.com.cn/thread-1170094-1-1.html   
+2.采用 TVS 二极管的高压 ADC 电路输入保护  
+https://www.ti.com.cn/cn/lit/an/zhcacm1a/zhcacm1a.pdf?ts=1718676384534&ref_url=https%253A%252F%252Fwww.bing.com%252F    
+[采用 TVS 二极管的高压 ADC 电路输入保护.pdf](https://github.com/user-attachments/files/15967724/TVS.ADC.pdf)  
+3.利用ADG5412F解决模拟输入的IEC系统保护  https://www.analog.com/media/cn/technical-documentation/application-notes/an-1436_cn.pdf  
+[采用 TVS 二极管的高压 ADC 电路输入保护.pdf](https://github.com/user-attachments/files/15967761/TVS.ADC.pdf)  
+4.电路保护器件的电气特性 https://mbb.eet-china.com/forum/topic/132927_1_1.html  
+
+
+
