@@ -194,7 +194,9 @@ https://blog.csdn.net/u_7890/article/details/81565679
 -----输入英文冒号，任意输入，即会出现提示  
 
 
-“空格“<br/>” ”
+“空格“<br/>” ”  
+<img width="34" height="16" alt="image" src="https://github.com/user-attachments/assets/c20e91d0-d7ae-4523-8464-4a8c5d98fe4f" />
+
 测试空格  
 <br/>
 测试空格  
