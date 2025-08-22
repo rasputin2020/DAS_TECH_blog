@@ -39,10 +39,12 @@ Coexistence of XGS-PON and XG-PON
 Like XG-PON, XGS-PON uses broadcasting for downlink and TDMA for uplink.
 
 Since the downlink wavelength and downlink rate of XGS-PON and XG-PON are the same, the downlink of XGS-PON does not distinguish between XGS-PON ONU and XG-PON ONU. The optical splitter broadcasts the downlink optical signal to the same ODN link. For each XG(S)-PON (XG-PON and XGS-PON) ONU, each ONU chooses to receive its own signal and discards other signals.
+<img width="512" height="283" alt="image" src="https://github.com/user-attachments/assets/b9104c96-a992-4718-a5a5-97befe441371" />
 
  
 
 The uplink of XGS-PON transmits data according to time slots, and the ONU sends data within the time slots allowed by the OLT. OLT dynamically allocates time slots based on the traffic requirements of different ONUs and the type of ONU. In the time slot allocated to XG-PON ONU, the data transmission rate is 2.5Gbps; in the time slot allocated to XGS-PON ONU, the data transmission rate is 10Gbps.
+<img width="520" height="280" alt="image" src="https://github.com/user-attachments/assets/29d7538b-96d9-40d8-a423-ab989f230f07" />
 
  
 
@@ -53,10 +55,12 @@ Coexistence of XGS-PON and GPON
 Since the upstream/downstream wavelengths are different from GPON, XGS-PON uses the Combo solution to share ODN with GPON. XGS-PON's Combo optical module integrates GPON optical modules, XGS-PON optical modules and WDM combiners.
 
 In the upstream direction, after the optical signal enters the XGS-PON Combo port, WDM filters the GPON signal and XGS-PON signal according to the wavelength, and then sends the signal to different channels.
+<img width="573" height="343" alt="image" src="https://github.com/user-attachments/assets/7d0d168b-d868-431c-9ac1-f5feac242e83" />
 
  
 
 In the downstream direction, signals from GPON channels and XGS-PON channels are multiplexed through WDM, and mixed signals are downlinked to ONUs through ODN. Since the wavelengths are different, different types of ONUs their required wavelengths through internal filters to receive signals.
+<img width="425" height="244" alt="image" src="https://github.com/user-attachments/assets/41448844-cab1-4830-9b3c-827f1eb4f225" />
 
  
 
@@ -77,6 +81,8 @@ Like XG-PON, the downlink of XGS-PON adopts the broadcast method, and the uplink
 Since the downstream wavelength and downstream rate of XGS-PON and XG-PON are the same, the downstream of XGS-PON does not distinguish between XGS-PON ONU and XG-PON ONU, and the optical splitter broadcasts the downstream optical signal to the same ODN link For each XG(S)-PON (XG-PON and XGS-PON) ONU, each ONU chooses to receive its own signal and discards other signals.
 The uplink of XGS-PON performs data transmission according to time slots, and ONU sends data in the time slots permitted by OLT. The OLT dynamically allocates time slots according to the traffic demands of different ONUs and the type of ONU (is it XG-PON or XGS-PON?). In the time slot allocated to XG-PON ONU, the data transmission rate is 2.5Gbps; in the time slot allocated to XGS-PON ONU, the data transmission rate is 10Gbps.
 It can be seen that XGS-PON naturally supports mixed access with two types of ONUs, XG-PON and XGS-PON.
+<img width="750" height="422" alt="image" src="https://github.com/user-attachments/assets/511c3340-c5c5-415c-93df-55d0adaa5613" />
+<img width="750" height="290" alt="image" src="https://github.com/user-attachments/assets/e86b9c30-9fdd-4677-a8b7-232fc692f208" />
 
 
 
@@ -94,6 +100,10 @@ https://www.lightoptics.co.uk/blogs/news/full-coexistence-of-gpon-xgs-pon-and-ng
 https://www.corning.com/catalog/coc/documents/selection-guides/CRR-1836-AEN.pdf
 
 CRR-1836-AEN.pdf 
+<img width="1130" height="676" alt="image" src="https://github.com/user-attachments/assets/32961654-e557-4bd7-af3b-1940f3b03eee" />
+<img width="1122" height="666" alt="image" src="https://github.com/user-attachments/assets/168d70a5-8f7e-4023-9281-d4faf2e2609b" />
+<img width="1131" height="765" alt="image" src="https://github.com/user-attachments/assets/ebfbbadf-999e-4fb1-b3a9-c63df8ddbb09" />
+<img width="855" height="738" alt="image" src="https://github.com/user-attachments/assets/d316851f-a759-403d-8ef5-3a6264a7f12e" />
 
  
 
