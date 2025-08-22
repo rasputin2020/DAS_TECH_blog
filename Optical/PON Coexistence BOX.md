@@ -105,13 +105,16 @@ CRR-1836-AEN.pdf 
 <img width="1131" height="765" alt="image" src="https://github.com/user-attachments/assets/ebfbbadf-999e-4fb1-b3a9-c63df8ddbb09" />
 <img width="855" height="738" alt="image" src="https://github.com/user-attachments/assets/d316851f-a759-403d-8ef5-3a6264a7f12e" />
 
- 
+ ----------------------------
+ 
 
 https://webresources.commscope.com/download/assets/Specification+Guide:+Coexistence+(CEx)+Singlemode+Devices/b57d7bfa3bd811f0b092ea1fa90d937b 
 
 Specification Guide: Coexistence (CEx) Singlemode Devices
 
 Specification Guide Coexistence (CEx) Singlemode Devices.pdf
+<img width="1147" height="456" alt="image" src="https://github.com/user-attachments/assets/0ac62b50-670d-47b8-8504-0408f21e78d1" />
+
 
 The operating wavelength band specified in Table B.9.4 is 1260-1280 nm. This corresponds to UW0 in IEEE 802.3ca. Additionally, UW1 (from IEEE 802.3ca) and UW3 (new for the 25GS-PON MSA) are also usable wavelengths for 10G upstream.
 
@@ -139,6 +142,12 @@ These wavelengths are used in 25GS-PON to allow for greater bandwidth and effici
 
 -----------------------------------------
 
+<img width="1226" height="730" alt="image" src="https://github.com/user-attachments/assets/014250ae-71de-4039-9971-6e0a95622280" />
+<img width="862" height="741" alt="image" src="https://github.com/user-attachments/assets/332177ad-6b21-4360-a2f0-c827ceb6db65" />
+<img width="1145" height="443" alt="image" src="https://github.com/user-attachments/assets/e2876d9f-1693-447c-9ee0-fad035e72ba8" />
+<img width="912" height="806" alt="image" src="https://github.com/user-attachments/assets/ea6271e5-dcd0-4ed4-91a4-1cf4a705f12c" />
+<img width="1082" height="420" alt="image" src="https://github.com/user-attachments/assets/4b6f0293-ba27-4f67-b824-dfe1b50689ff" />
+
 
 
 
@@ -149,34 +158,42 @@ https://www.zte.com.cn/content/dam/zte-site/res-www-zte-com-cn/mediares/zte/glob
 
 White Paper on 50G PON Technology V2.0  
 
+<img width="799" height="226" alt="image" src="https://github.com/user-attachments/assets/83519abd-aeae-4600-a156-7eca8c13a566" />
 
 
 
 
-
+-----------------------------
 
 https://www.ieee802.org/3/ca/public/meeting_archive/2017/09/kramer_3ca_2_0917.pdf
 
+[kramer_3ca_2_0917.pdf](https://github.com/user-attachments/files/21932946/kramer_3ca_2_0917.pdf)
 
 
 
 
 
-
+-------------------------------
 https://www.itu.int/en/ITU-T/Workshops-and-Seminars/202001/Documents/Vince_Ferreti.pdf
+<img width="1218" height="624" alt="image" src="https://github.com/user-attachments/assets/c378108f-e420-4568-8656-08cf38fdbbd9" />
 
+-----------------------------
 https://www.25gspon-msa.org/wp-content/uploads/2020/10/25GS-PON-Specification-V1.0-public.pdf
-
+-------------------
 
 
 
 https://docbox.etsi.org/ISG/F5G/Open/F5G%20External%20Presentations%202021/ECOC2021/ECOC2021%20F5G%20Workshop%20Mo2F%20(Frank%20Effenberger).pdf 
 
 Microsoft PowerPoint - ECOC21_Effenberger_50GPONv2.pptx
+<img width="1208" height="559" alt="image" src="https://github.com/user-attachments/assets/0eb1c7b2-358b-4ae6-98ba-882976ed7327" />
 
 
 
-
+-------------------------
 https://www.ieee802.org/3/ca/public/meeting_archive/2018/03/zhou_3ca_1_0318.pdf
 
 Symmetric 50G PON using NRZ
+<img width="1193" height="711" alt="image" src="https://github.com/user-attachments/assets/a754ba5f-dcb6-41fa-b288-b4b8c1614bfa" />
+<img width="1167" height="745" alt="image" src="https://github.com/user-attachments/assets/39fca4e7-e989-4160-a357-705226075c99" />
+
