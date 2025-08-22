@@ -105,8 +105,8 @@ CRR-1836-AEN.pdf 
 <img width="1131" height="765" alt="image" src="https://github.com/user-attachments/assets/ebfbbadf-999e-4fb1-b3a9-c63df8ddbb09" />
 <img width="855" height="738" alt="image" src="https://github.com/user-attachments/assets/d316851f-a759-403d-8ef5-3a6264a7f12e" />
 
- ----------------------------
- 
+
+ --------------------------------------
 
 https://webresources.commscope.com/download/assets/Specification+Guide:+Coexistence+(CEx)+Singlemode+Devices/b57d7bfa3bd811f0b092ea1fa90d937b 
 
