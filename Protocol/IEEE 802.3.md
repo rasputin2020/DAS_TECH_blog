@@ -89,15 +89,9 @@ Application	No. of Fibers	Wavelength(s)	Operating Range1	Standards Reference
 https://www.ieee802.org/3/bs/public/14_05/anslow_3bs_01_0514.pdf    
 <img width="862" height="594" alt="image" src="https://github.com/user-attachments/assets/37eb58b9-9ffa-4019-8d21-c02cb3d653a5" />
 
-
-
-
-
-
-
-
-
 https://www.ieee802.org/3/ba/public/may08/mellitz_01_0508.pdf
+<img width="870" height="616" alt="image" src="https://github.com/user-attachments/assets/7e338028-4c9f-4b2d-a417-3ec0dc313089" />  
+<img width="916" height="544" alt="image" src="https://github.com/user-attachments/assets/a251994d-aa1d-45fd-96d7-375f37aec304" />  
 
 https://zhuanlan.zhihu.com/p/343643806 
 
