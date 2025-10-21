@@ -21,58 +21,58 @@ IEEE 802.3 Single-mode Ethernet Applications
 
 
 
-
-All Speeds
-LAN
-MAN
-WAN
-1 Gb/s
-10 Gb/s
-25 Gb/s
-40 Gb/s
-50 Gb/s
-100 Gb/s
-200 Gb/s
-400 Gb/s
-800 Gb/s
+ 
+All Speeds  
+LAN  
+MAN  
+WAN  
+1 Gb/s  
+10 Gb/s  
+25 Gb/s  
+40 Gb/s  
+50 Gb/s  
+100 Gb/s  
+200 Gb/s  
+400 Gb/s  
+800 Gb/s  
 
 All fiber count IEEE 802.3 Ethernet single-mode applications:
 
 
 
 
-Application	No. of Fibers	Wavelength(s)	Operating Range1	Standards Reference
-1000BASE-LX	2	1310 nm	2 m to 5 km	IEEE Std 802.3, Clause 38
-10GBASE-ER	2	1550 nm	2 m to 40 km7	IEEE Std 802.3, Clause 52
-10GBASE-LX4	2	four WDM2	2 m to 10 km	IEEE Std 802.3, Clause 53
-10GBASE-LR	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 52
-25GBASE-ER	2	1310 nm	2 m to 40 km7	IEEE Std 802.3, Clause 114
-25GBASE-LR	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 114
-40GBASE-ER4	2	four WDM3	2 m to 40 km7	IEEE Std 802.3, Clause 87
-40GBASE-FR	2	1550 nm	2 m to 2 km	IEEE Std 802.3, Clause 89
-40GBASE-LR4	2	four WDM3	2 m to 10 km	IEEE Std 802.3, Clause 87
-50GBASE-ER	2	1310 nm	2 m to 40 km7	IEEE Std 802.3, Clause 139
-50GBASE-FR	2	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 139
-50GBASE-LR	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 139
-100GBASE-DR	2	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 140
-100GBASE-ER4	2	four WDM4	2 m to 40 km7	IEEE Std 802.3, Clause 88
-100GBASE-FR1	2	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 140
-100GBASE-LR1	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 140
-100GBASE-LR4	2	four WDM4	2 m to 10 km	IEEE Std 802.3, Clause 88
-100GBASE-ZR	2	DWDM6	2 m to 80 km	IEEE Std 802.3, Clause 154
-200GBASE-DR4	8	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 121
-200GBASE-ER4	2	four WDM4	2 m to 40 km7	IEEE Std 802.3, Clause 122
-200GBASE-FR4	2	four WDM3	2 m to 2 km	IEEE Std 802.3, Clause 122
-200GBASE-LR4	2	four WDM4	2 m to 10 km	IEEE Std 802.3, Clause 122
-400GBASE-DR4	8	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 124
-400GBASE-DR4-2	8	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 124
-400GBASE-ER8	2	eight WDM5	2 m to 40 km7	IEEE Std 802.3, Clause 122
-400GBASE-FR4	2	four WDM3	2 m to 2 km	IEEE Std 802.3, Clause 151
-400GBASE-FR8	2	eight WDM5	2 m to 2 km	IEEE Std 802.3, Clause 122
-400GBASE-LR4-6	2	four WDM3	2 m to 6 km	IEEE Std 802.3, Clause 151
-400GBASE-LR8	2	eight WDM5	2 m to 10 km	IEEE Std 802.3, Clause 122
-800GBASE-DR8	16	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 124
-800GBASE-DR8-2	16	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 124
+Application	No. of Fibers	Wavelength(s)	Operating Range1	Standards Reference  
+1000BASE-LX	2	1310 nm	2 m to 5 km	IEEE Std 802.3, Clause 38  
+10GBASE-ER	2	1550 nm	2 m to 40 km7	IEEE Std 802.3, Clause 52  
+10GBASE-LX4	2	four WDM2	2 m to 10 km	IEEE Std 802.3, Clause 53  
+10GBASE-LR	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 52  
+25GBASE-ER	2	1310 nm	2 m to 40 km7	IEEE Std 802.3, Clause 114  
+25GBASE-LR	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 114  
+40GBASE-ER4	2	four WDM3	2 m to 40 km7	IEEE Std 802.3, Clause 87  
+40GBASE-FR	2	1550 nm	2 m to 2 km	IEEE Std 802.3, Clause 89  
+40GBASE-LR4	2	four WDM3	2 m to 10 km	IEEE Std 802.3, Clause 87  
+50GBASE-ER	2	1310 nm	2 m to 40 km7	IEEE Std 802.3, Clause 139  
+50GBASE-FR	2	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 139  
+50GBASE-LR	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 139  
+100GBASE-DR	2	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 140  
+100GBASE-ER4	2	four WDM4	2 m to 40 km7	IEEE Std 802.3, Clause 88  
+100GBASE-FR1	2	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 140  
+100GBASE-LR1	2	1310 nm	2 m to 10 km	IEEE Std 802.3, Clause 140  
+100GBASE-LR4	2	four WDM4	2 m to 10 km	IEEE Std 802.3, Clause 88  
+100GBASE-ZR	2	DWDM6	2 m to 80 km	IEEE Std 802.3, Clause 154  
+200GBASE-DR4	8	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 121  
+200GBASE-ER4	2	four WDM4	2 m to 40 km7	IEEE Std 802.3, Clause 122  
+200GBASE-FR4	2	four WDM3	2 m to 2 km	IEEE Std 802.3, Clause 122  
+200GBASE-LR4	2	four WDM4	2 m to 10 km	IEEE Std 802.3, Clause 122  
+400GBASE-DR4	8	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 124  
+400GBASE-DR4-2	8	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 124  
+400GBASE-ER8	2	eight WDM5	2 m to 40 km7	IEEE Std 802.3, Clause 122  
+400GBASE-FR4	2	four WDM3	2 m to 2 km	IEEE Std 802.3, Clause 151  
+400GBASE-FR8	2	eight WDM5	2 m to 2 km	IEEE Std 802.3, Clause 122  
+400GBASE-LR4-6	2	four WDM3	2 m to 6 km	IEEE Std 802.3, Clause 151  
+400GBASE-LR8	2	eight WDM5	2 m to 10 km	IEEE Std 802.3, Clause 122  
+800GBASE-DR8	16	1310 nm	2 m to 500 m	IEEE Std 802.3, Clause 124  
+800GBASE-DR8-2	16	1310 nm	2 m to 2 km	IEEE Std 802.3, Clause 124  
 
 
 1 Operating range varies according to the type of single-mode optical fiber cable used.
