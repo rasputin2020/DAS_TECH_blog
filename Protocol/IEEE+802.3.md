@@ -71,12 +71,16 @@ Desired data rate and operating range are the **primary considerations** when 
 | <sup>1</sup> Operating range varies according to the type of single-mode optical fiber cable used.  <br><sup>2</sup> 1275.7 nm, 1300.2 nm, 1324.7 nm, and 1349.2 nm  <br><sup>3</sup> 1271 nm, 1291 nm, 1311 nm, and 1331 nm  <br><sup>4</sup> 1295.56 nm, 1300.05 nm, 1304.58 nm, and 1309.14 nm  <br><sup>5</sup> 1273.54 nm, 1277.89 nm, 1282.26 nm, 1286.66 nm, 1295.56 nm, 1300.05 nm, 1304.58 nm, and 1309.14 nm  <br><sup>6</sup> up to 48 channels between 1528.77 nm and 1566.31 nm over a DWDM “black link”  <br><sup>7</sup> Links longer than 30 km for the same link power budget are considered engineered links and must not exceed specified insertion loss. |     |     |     |     |
 
 https://www.ieee802.org/3/bs/public/14_05/anslow_3bs_01_0514.pdf  
+<img width="732" height="503" alt="image" src="https://github.com/user-attachments/assets/98b4ee2f-8e9b-4414-b46c-2ba3a5650fa6" />
 
 https://www.ieee802.org/3/ba/public/may08/mellitz_01_0508.pdf
-
+<img width="732" height="517" alt="image" src="https://github.com/user-attachments/assets/a11b6a79-c8c0-4f02-8aee-59cb2d72fc98" />  
+<img width="732" height="433" alt="image" src="https://github.com/user-attachments/assets/eb5d35cc-ef17-426f-b7e7-bb22d98d4a0f" />
+----------------
 https://zhuanlan.zhihu.com/p/343643806 
 
 IEEE 802.3cd标准覆盖了50GBASE-LR/KR/SR/FR PMD子层
+<img width="732" height="192" alt="image" src="https://github.com/user-attachments/assets/c168c472-fbe6-4d24-a49f-d57ec5ef2f3a" />
 
 IEEE 802.3cd定义的50G标准有以下几种：
 
@@ -93,11 +97,30 @@ IEEE 802.3cd定义的50G标准有以下几种：
 400GE标准基线是由IEEE P802.3bs工作组于2015年初制定的。随后，400GE接口的多种PMD子层规格以及AUI电接口陆续提出来。
 
 其中，IEEE 802.3bs定义了传输距离70-150m的SR16、传输距离为500m的DR4、传输距离为2km的FR8以及传输距离为10km的LR8。IEEE 802.3cm定义了传输距离为100m的SR8、SR4.2。100G Lambda MSA定义了传输距离为2km的 FR4、传输距离为10km的LR4。OIF定义了传输距离为80km的ZR。这些规格里边只有SR16仍采用NRZ的调制技术，其他规格均采用了[PAM4调制](https://zhida.zhihu.com/search?content_id=164494922&content_type=Article&match_order=2&q=PAM4%E8%B0%83%E5%88%B6&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NTc3MzM4MzYsInEiOiJQQU006LCD5Yi2IiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MTY0NDk0OTIyLCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjIsInpkX3Rva2VuIjpudWxsfQ.wMKtYAdu_LSwbcUcisShe5PEs64JqgV43rw_YBOV9p8&zhida_source=entity)。不同规格对应的电口、光口速率如图3所示。
+<img width="732" height="389" alt="image" src="https://github.com/user-attachments/assets/d47e90d7-c859-4c1a-b7d3-648599a17d32" />
 
+----------------
 https://carrier.huawei.com/~/media/cnbg/downloads/technical%20topics/fixed%20network/acrobat%20document-cn.pdf
 
 [**huawei50G PAM4技术背景.pdf**](/download/attachments/618902586/huawei50G%20PAM4%E6%8A%80%E6%9C%AF%E8%83%8C%E6%99%AF.pdf?version=1&modificationDate=1757577564149&api=v2)
+<img width="732" height="491" alt="image" src="https://github.com/user-attachments/assets/fcef8eb5-b738-4f2f-ad8b-bc78fd32dbca" />  
+<img width="732" height="348" alt="image" src="https://github.com/user-attachments/assets/eabd9db5-6c10-4962-be4a-efa506de6e52" />
+<img width="732" height="256" alt="image" src="https://github.com/user-attachments/assets/e4368cd0-efde-49d8-9759-c63211828dd9" />
+<img width="732" height="397" alt="image" src="https://github.com/user-attachments/assets/db8c7394-6028-4ffc-8fb2-07b28b94533f" />
+<img width="732" height="721" alt="image" src="https://github.com/user-attachments/assets/40d45250-9807-4fda-8cab-316c3b85bdd9" />
+<img width="732" height="464" alt="image" src="https://github.com/user-attachments/assets/5395dff8-3ffd-4d84-9bf1-3c1d03b7e5f4" />
+<img width="732" height="325" alt="image" src="https://github.com/user-attachments/assets/734ad129-e88a-43ff-954c-f1b633e8396b" />
+<img width="732" height="338" alt="image" src="https://github.com/user-attachments/assets/d65d66f2-fe0b-4390-b6a9-eaf7852a0259" />
+<img width="732" height="328" alt="image" src="https://github.com/user-attachments/assets/14ff6a0f-720a-49f4-8cc9-d7727e747c4a" />
+<img width="732" height="333" alt="image" src="https://github.com/user-attachments/assets/27f8c2e8-5b12-480f-9bac-c2a0a94b2e0b" />
+<img width="732" height="419" alt="image" src="https://github.com/user-attachments/assets/635f14e3-c6f5-45f8-b772-dd12b1af5d21" />
+<img width="732" height="264" alt="image" src="https://github.com/user-attachments/assets/ff7268d8-fd66-4c34-bf5a-52571d3f95d2" />
+<img width="732" height="895" alt="image" src="https://github.com/user-attachments/assets/528110c1-6ce8-40ae-ae67-4e9eb26e8519" />
+<img width="732" height="723" alt="image" src="https://github.com/user-attachments/assets/045e0e43-4d3d-4a3a-95a0-320db354c2d7" />
 
+
+
+-------------------
 https://www.synopsys.com/articles/ethernet-terminology.html 
 
 Utilization of the Ethernet protocol for connectivity is widespread in a broad range of things or devices around us. Historically, Ethernet has been used in local area networks (LANs) and metropolitan area networks (MANs), and now markets such as storage and automotive are adopting it due to its popularity and numerous benefits like its massive ecosystem and growing economies of scale. Integrated circuit (IC) designers are looking to integrate Ethernet functionality into their designs with an Ethernet IP solution that best serves their target applications.
@@ -113,6 +136,7 @@ Ethernet speeds are the actual data throughput rate without the data overhead, w
 ## Ethernet Interconnect Mediums
 
 Figure 1 shows the five major Ethernet interconnect mediums. An Ethernet medium may consist of only pairs of printed circuit board (PCB) traces connecting each PHY in the two ICs at each end, or it may include additional devices such as connector(s), cable (optical or copper), and transceivers. 
+<img width="732" height="559" alt="image" src="https://github.com/user-attachments/assets/c477064f-1fed-4f27-a7e0-084b5708eaf2" />
 
 **_Figure 1: Example of Ethernet interconnect mediums_** 
 
@@ -131,6 +155,7 @@ The IEEE 802.3 standard defines a Gigabit or 10 Gigabit PHY as a combination of 
 3.  Physical coding sublayer (PCS)
 
 The PHY connects to the interconnect medium through the Media Dependent Interface (MDI) and connects to the MAC in the data link layer, through the media independent interface (MII), as shown in Figure 2.
+<img width="732" height="588" alt="image" src="https://github.com/user-attachments/assets/0d151e84-c81f-4b4d-86a1-4c85c1a71775" />
 
 **_Figure 2: Gigabit and 10 Gigabit Ethernet physical and data link layers_**
 
@@ -175,13 +200,15 @@ Therefore, it is important to distinguish the differences between the optical tr
 ## Summary
 
 1000BASE-X or 10GBASE-R are names that only provide information on the data rate and the coding scheme without specifying the interface medium. By knowing how to decipher the Ethernet nomenclature by using the full name (10GBASE-KR or 10GBASE-ER), there is less ambiguity for IC designers to select the applicable medium. There may be different 10 Gigabit Ethernet specifications defined, but as long as the interconnect medium is correctly defined, the right specification can be selected for your next generation product. Synopsys’ [DesignWare® Ethernet IP](https://www.synopsys.com/designware-ip/interface-ip/ethernet.html) solutions support a broad range of Ethernet specifications and data rates.
-
+----------------
 https://www.intel.com/content/www/us/en/docs/programmable/683573/current/10gbase-r-and-10gbase-kr.html
 
 图 152.  10GBASE-R PHY 连接到 IEEE802.3 MAC 和 RS
+<img width="732" height="417" alt="image" src="https://github.com/user-attachments/assets/7e6cb2f7-86f8-4fff-997d-3ea7f8cfa70a" />
 
 图 153.  10GBASE-KR PHY 连接到 IEEE802.3 MAC 和 RS
-
+<img width="732" height="437" alt="image" src="https://github.com/user-attachments/assets/3b7db0cf-8ae7-4a41-bd65-15042042ef1c" />
+------------------------
 # https://www.cnblogs.com/sztom/p/19084872 IEEE 802 groups
 
 |     |     |     |     |     |
@@ -333,7 +360,7 @@ https://www.intel.com/content/www/us/en/docs/programmable/683573/current/10gbase
 
   
  
-
+-------------------
 https://www.cse.wustl.edu/~jain/cse570-19/ftp/backplne.pdf 
 
 10GBASE-KX4 and 10GBASE-KR correspond to the **IEEE 802.3ap** standard published in 2007
@@ -341,19 +368,27 @@ https://www.cse.wustl.edu/~jain/cse570-19/ftp/backplne.pdf 
 https://www.ieee802.org/3/ck/public/19_01/lusted_3ck_01_0119.pdf
 
 Nomenclature  
-
+------------------------
 https://download.tek.com/document/Tek%20PAM4%20Solution%20Update-2018-05-23_0.pdf
-
+<img width="732" height="502" alt="image" src="https://github.com/user-attachments/assets/1ad0b02b-965b-4282-80ad-f93d93064f2b" />
+<img width="732" height="499" alt="image" src="https://github.com/user-attachments/assets/d2d67198-4fad-4a72-a0a7-8d949082dc62" />
+<img width="732" height="477" alt="image" src="https://github.com/user-attachments/assets/7d2db998-d142-44b1-8060-409eff099621" />
+<img width="732" height="495" alt="image" src="https://github.com/user-attachments/assets/cbb93dc0-3675-4e03-99a8-2b9774843aa9" />
+-----------------
 https://harrisburg.psu.edu/files/pdf/16861/2019/05/06/tektronix_penn_state_si_april_12_2019.pdf 
-
+<img width="732" height="436" alt="image" src="https://github.com/user-attachments/assets/298556b7-ba81-457c-b709-e9c3917c0dba" />
+<img width="732" height="381" alt="image" src="https://github.com/user-attachments/assets/385f3d97-83c7-474b-982a-8d444bda83f3" />
+<img width="732" height="497" alt="image" src="https://github.com/user-attachments/assets/6dd9506b-771c-4444-818d-6152a820c121" />
+<img width="732" height="546" alt="image" src="https://github.com/user-attachments/assets/78873c7b-b460-4c3a-a138-285b2dc67a04" />
+-----------------
 https://cdrdv2-public.intel.com/667071/an835-ch-683852-667071.pdf 
-
+------------
 https://en.wikipedia.org/wiki/25_Gigabit_Ethernet
 
 The IEEE P802.3cd [<sup>\[2\]</sup>](https://en.wikipedia.org/wiki/25_Gigabit_Ethernet#cite_note-802_3_cd-2) standard defines a Physical Coding Sublayer (PCS) in Clause 133 which after encoding gives a [data rate](https://en.wikipedia.org/wiki/Bit_rate) of **_51.5625 Gbit/s_**. 802.3cd also defines an RS-FEC for forward error correction in Clause 134 which after FEC encoding gives a data rate of **53.125 Gbit/s**. It is not possible to transmit 53.125 Gbit/s over an electrical interface while maintaining suitable signal integrity so four-level [pulse-amplitude modulation](https://en.wikipedia.org/wiki/Pulse-amplitude_modulation) (PAM4) is used to map pairs of bits into a single symbol. This leads to an overall baud rate of **26.5625** [**GBd**](https://en.wikipedia.org/wiki/Baud#Definitions) for 50 Gbit/s per lane Ethernet. PAM4 encoding for 50G Ethernet is defined in Clause 135 of the 802.3 standard
-
+----------
 https://www.ieee802.org/3/ca/public/meeting_archive/2019/03/kramer_3ca_10_0319.pdf
-
+------------
 https://www.intel.com/content/www/us/en/docs/programmable/683805/current/types-of-rs-fec.html
 
 Table 5.  Types of RS-FEC
@@ -368,21 +403,26 @@ Table 5.  Types of RS-FEC
 | Correctable symbols |     | t   | 7   | 15  |
 | Coding gain | DFE | —   | 4.9 dB @ 1E-15 | 5.4 dB @ 1E-15 |
 | Random | —   | 5.3 dB @ 1E-12 | 6.5 dB @ 1E-12 |
-
+------------
 https://www.cnblogs.com/xena/p/18082650
 
 对于802.3ck中描述的100Gbps以太网，在添加里德-所罗门前向纠错（RS-FEC）之前，64b/66b编码被转码为256b/257b块。这样做是为了减少块编码所使用的开销，以便为更强大的PAM4 FEC留下更多的开销。256b/256b转码将四个64b/66b块组合在一起，去掉两个比特的头，在整个256比特块上添加一个单比特头。
+<img width="732" height="168" alt="image" src="https://github.com/user-attachments/assets/8d9e5604-ffe3-4993-9a91-daff17570235" />
 
 一个FEC块由n个FEC符号组成，其中k个FEC符号是实际数据，其余（n-k）个FEC符号是代码和冗余位–也被称为奇偶校验位。因此，一个FEC的特点是有序的一对（n,k）。
+<img width="732" height="202" alt="image" src="https://github.com/user-attachments/assets/5a9dc943-0997-44f7-9c35-ba9a6264a892" />
 
 一个给定的FEC可以纠正的错误数量取决于实际的实现。对于802.3ck 100Gbps以太网，使用了Reed-Solomon（RS）（544,514，t=15）FEC，FEC符号为10比特宽。这意味着，每块514个数据FEC符号要增加30个奇偶校验FEC符号。t=15指的是这个FEC可以纠正多达15个FEC符号的错误，每个符号包含多达10位的错误。
-
+---------------
 https://www.xilinx.com/publications/events/designcon/2016/slides-pam4signalingfor56gserial-zhang-designcon.pdf     看起来很专业 ，没仔细看 
+-----------
+https://www.ti.com/content/dam/videos/external-videos/zh-tw/11/3816841626001/50g-ethernet.mp4/subassets/50g-ethernet-presentation.pdf  
+<img width="732" height="336" alt="image" src="https://github.com/user-attachments/assets/43927174-d045-4c5d-8c23-a88bed05841d" />
 
-https://www.ti.com/content/dam/videos/external-videos/zh-tw/11/3816841626001/50g-ethernet.mp4/subassets/50g-ethernet-presentation.pdf
-
+--------
 https://www.tek.com/en/documents/whitepaper/optical-bandwidth-requirements-nrz-and-pam4-signaling  
-
+<img width="863" height="620" alt="image" src="https://github.com/user-attachments/assets/0a457f63-4cd6-4642-bcb5-5fa1a7eb67cb" />
+-----
 Figure 1. Graph of an ORR (Optical Reference Receiver) at 25Gbps. Note that the -3dBe point is at 18.75 GHz and that the -6dBe (-3dBo) point is at 1.025 \* 25 GHz = 25.625 GHz.
 
 https://www.ieee802.org/3/bm/public/sep12/petrilla_02a_0912_optx.pdf
