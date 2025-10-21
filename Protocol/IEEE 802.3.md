@@ -86,7 +86,10 @@ Application	No. of Fibers	Wavelength(s)	Operating Range1	Standards Reference
 
 
 
-https://www.ieee802.org/3/bs/public/14_05/anslow_3bs_01_0514.pdf  
+https://www.ieee802.org/3/bs/public/14_05/anslow_3bs_01_0514.pdf    
+<img width="862" height="594" alt="image" src="https://github.com/user-attachments/assets/37eb58b9-9ffa-4019-8d21-c02cb3d653a5" />
+
+
 
 
 
